@@ -1,0 +1,23 @@
+user_table
+username UNIQUE CHAR(30)
+password CHAR(30)
+
+tweets_table
+tweet CHAR(200)
+
+likes_table
+username CHAR(30)
+tweetID CHAR(10)
+
+test
+username UNIQUE CHAR(30)
+password INTEGER
+
+users
+username UNIQUE CHAR(30)
+password CHAR(30)
+
+
+tweets
+username CHAR(30)
+tweet CHAR(200)
